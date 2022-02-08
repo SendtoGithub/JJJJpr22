@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FTest(failed)">
+    <classes>
+      <class name="mtpcg1.Fb">
+        <methods>
+          <include name="beforetest"/>
+          <include name="fbdetails" invocation-numbers="1"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- mtpcg1.Fb -->
+    </classes>
+  </test> <!-- FTest(failed) -->
+</suite> <!-- Failed suite [DSuite] -->
